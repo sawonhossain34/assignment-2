@@ -65,3 +65,37 @@ color:rgb(22, 12, 12);
 header style end
  ****************/
 /* main section style start */
+.team-container{
+    display: flex;
+    margin:85px 301px 130px;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:24px;
+    margin-top:85px;
+}
+.team-praghrap{
+    align-items: center;
+    width: 537px;
+    height: 304px;
+    border:1px solid red;
+    margin-top: 330px;
+    margin-left: 73px;
+    
+
+}
+.team-praghrap h3 .a{
+    font-weight: 800;
+    color:rgb(130, 88, 197);
+    font-size: 35px;
+}
+.team-praghrap h3 .b{
+    font-weight: sans-serif;
+    font-size: 25px;
+}
+.team-praghrap h3 .c{
+    font-weight: 800;
+    font-size: 30px;
+    color:#FF900E;
+}
