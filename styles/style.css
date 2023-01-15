@@ -65,6 +65,7 @@ color:rgb(22, 12, 12);
 header style end
  ****************/
 /* main section style start */
+/* team section start */
 .team-container{
     display: flex;
     margin:85px 301px 130px;
@@ -77,13 +78,16 @@ header style end
 }
 .team-praghrap{
     align-items: center;
-    width: 537px;
+    width: 545px;
     height: 304px;
-    border:1px solid red;
-    margin-top: 330px;
+    margin-top: 280px;
     margin-left: 73px;
-    
-
+    margin-right: 200px; 
+   
+}
+.team-title{
+    font-size:54px;
+    line-height:45px;
 }
 .team-praghrap h3 .a{
     font-weight: 800;
@@ -92,10 +96,57 @@ header style end
 }
 .team-praghrap h3 .b{
     font-weight: sans-serif;
-    font-size: 25px;
+    font-size: 35px;
 }
 .team-praghrap h3 .c{
     font-weight: 800;
     font-size: 30px;
     color:#FF900E;
+}
+.team-discription{
+    margin-top:24px;
+    font-size:16px;
+    line-height:20px;
+    color: #727272;
+}
+.team-button{
+width:180px;
+height:64px;
+background-color:#FF900E;
+color:#FFFFFF;
+border-radius:20px;
+font-size:20px;
+padding:20px 25px;
+margin-top:53px;
+}
+/* team section end */
+/* experience section style :start */
+.experience-container{
+width: 1440px;
+height: 700px;
+margin:130px 240px;
+display:flex;
+gap:54px;
+}
+.experience-left{
+
+}
+.vi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.verticle{
+    background-color: #FF900E;
+    width: 10px;
+    height: 130px;
+}
+.left-title{
+    font-size:45px;
+    margin-left:22px;
+}
+.praghraph{
+    font-size:16px;
+    color:#727272;
+    line-height: 26px;
 }
